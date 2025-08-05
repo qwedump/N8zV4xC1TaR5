@@ -362,7 +362,7 @@ local function createLine()
     local line = Drawing.new("Line")
     line.Visible = false
     line.Color = Color3.new(1, 1, 1)
-    line.Thickness = 1.8
+    line.Thickness = 1.4
     line.Transparency = 1
     return line
 end
