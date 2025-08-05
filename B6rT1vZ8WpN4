@@ -284,7 +284,7 @@ declare(features, "visuals", {
         ["color"] = Color3.fromRGB(139, 0, 0),
         ["outline"] = {
             ["enabled"] = true,
-            ["color"] = Color3.fromRGB(0, 0, 0),
+            ["color"] = Color3.fromRGB(255, 255, 255),
         },
         ["filled"] = {
             ["enabled"] = false,
