@@ -230,7 +230,7 @@ get("player").update = function(self, character, data)
             drawings.name.Color = color(visuals.names.color)
             drawings.name.Outline = visuals.names.outline.enabled
             drawings.name.OutlineColor = visuals.names.outline.color
-            drawings.name.Font = 2
+            drawings.name.Font = 1
 
             drawings.name.ZIndex = drawings.box.ZIndex + 1
 
@@ -240,7 +240,7 @@ get("player").update = function(self, character, data)
             drawings.distance.Color = color(visuals.distance.color)
             drawings.distance.Outline = visuals.distance.outline.enabled
             drawings.distance.OutlineColor = visuals.distance.outline.color
-            drawings.distance.Font = 2
+            drawings.distance.Font = 1
         end
 
         drawings.box.Visible = (check() and visible and visuals.boxes.enabled)
