@@ -219,7 +219,7 @@ get("player").update = function(self, character, data)
             drawings.boxFilled.Color = color(visuals.boxes.filled.color)
             drawings.boxFilled.Transparency = visuals.boxes.filled.transparency
             drawings.boxOutline.Color = visuals.boxes.outline.color
-            drawings.boxOutline.Thickness = 3
+            drawings.boxOutline.Thickness = 1
 
             drawings.boxOutline.ZIndex = drawings.box.ZIndex - 1
             drawings.boxFilled.ZIndex = drawings.boxOutline.ZIndex - 1
