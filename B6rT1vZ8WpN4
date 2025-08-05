@@ -233,7 +233,7 @@ get("player").update = function(self, character, data)
 
             drawings.name.ZIndex = drawings.box.ZIndex + 1
 
-            drawings.distance.Text = ` {math.floor(data.distance)} `
+            drawings.distance.Text = ` {math.floor(data.distance)}m `
             drawings.distance.Size = math.max(math.min(math.abs(11 * scale), 11), 10)
             drawings.distance.Position = Vector2.new(x, (yPosition + height) + (drawings.distance.TextBounds.Y * 0.25))
             drawings.distance.Color = color(visuals.distance.color)
